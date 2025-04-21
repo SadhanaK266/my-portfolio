@@ -18,7 +18,11 @@ export const Experience = () => {
             </div>
             <div className="box-Container">
             <Timeline >
-                <TimelineItem sx={{right:'20%'}}>
+                <TimelineItem sx={{right:'20%',
+                    '@media (max-width:768px)':{
+                        right:'20%'
+                    }
+                }}>
                     <TimelineSeparator>
                         {/* <WorkHistoryIcon sx={{margin:'8%'}} /> */}
                         <TimelineDot  />
