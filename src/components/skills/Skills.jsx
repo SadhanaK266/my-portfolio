@@ -48,7 +48,7 @@ export const Skills = () => {
             <div >
                 <Accordion sx={{
                     width:'100%',maxWidth:'500px',left:'30.5%',backgroundColor:'rgb(50,50,50)',color:'white',
-                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'15%'}
+                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'18%'}
                 }}>
                     <AccordionSummary
                         expandIcon={<ArrowDropDownIcon sx={{color:'white'}} />}
@@ -56,7 +56,7 @@ export const Skills = () => {
                         id="panel1-header"
                     >
                         <Typography component="span" sx={{fontSize:'18px',fontWeight:'bold',
-                            '@media(max-width:768px)':{fontSize:'15px',justifyContent:'center',alignItems:'center'}
+                            '@media(max-width:768px)':{fontSize:'15px'}
                         }}>Languages and Framework</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
@@ -74,7 +74,7 @@ export const Skills = () => {
                     </AccordionDetails>
                 </Accordion>
                 <Accordion sx={{width:'100%',maxWidth:'500px',left:'30.5%',backgroundColor:'rgb(50,50,50)',color:'white',
-                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'15%'}
+                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'18%'}
                 }}>
                     <AccordionSummary
                         expandIcon={<ArrowDropDownIcon sx={{color:'white'}} />}
