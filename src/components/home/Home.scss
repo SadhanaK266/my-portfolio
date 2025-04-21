@@ -73,22 +73,23 @@
             margin: 50px 2px;
 
             & h1 {
-                font-size: 13px;
-                width:80%;
-                max-width: 120px;
+                font-size: 10px;
+                font-weight: bolder;
+                width:65%;
+                max-width: 100px;
             }
 
             & h4 {
-                font-weight: 1000;
+                font-weight: bolder;
                 font-size: 6px;
                 width:100%;
-                max-width: 145px;
+                max-width: 141px;
             }
 
             & button {
                 font-size: 7px;
                 text-align: center;
-                width:80%;
+                width:65%;
                 max-width: 100px;
             }
         }
