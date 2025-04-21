@@ -56,7 +56,7 @@ export const Skills = () => {
                         id="panel1-header"
                     >
                         <Typography component="span" sx={{fontSize:'18px',fontWeight:'bold',
-                            '@media(max-width:768px)':{fontSize:'15px'}
+                            '@media(max-width:768px)':{fontSize:'15px',justifyContent:'center',alignItems:'center'}
                         }}>Languages and Framework</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
