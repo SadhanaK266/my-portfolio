@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <>
       
-      <home>
+      <div className='home'>
         <div className="home__img">
           <img src={TopImage1} alt="image1" />
         </div>
@@ -19,7 +19,7 @@ export const Home = () => {
           <h4>Web Developer & Tech Enthusiast</h4>
             <button onClick={download} className='topContent__downloadBtn'>Download cv</button>
         </div>
-      </home>
+      </div>
     </>
   )
 }
