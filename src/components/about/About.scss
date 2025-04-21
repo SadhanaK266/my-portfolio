@@ -178,16 +178,17 @@
             & h2 {
                 font-size: 20px;
                 width: 100%;
+                max-width: 470px;
             }
 
             & p {
                 width: 100%;
-                max-width: 470px;
+                max-width: 450px;
             }
 
             & .download-btn {
                 width: 100%;
-                max-width: 470px;
+                max-width: 450px;
             }
         }
     }
