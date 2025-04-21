@@ -31,7 +31,7 @@ export const Experience = () => {
                     <TimelineContent>
                         <Typography className='companyName' variant="h5" sx={{ fontFamily: 'Montserrat',marginBottom:'2%', fontWeight: 'bold', color: 'rgb(200,0,200)' ,
                             '@media (max-width:768px)':{
-                                fontSize:'19px'
+                                fontSize:'20px'
                             }
                         }}>
                             Thulir, Singapore (Intern)
@@ -52,7 +52,10 @@ export const Experience = () => {
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem sx={{right:'20%'}}>
+                <TimelineItem sx={{right:'20%',
+                    '@media (max-width:768px)':{
+                        right:'30%'
+                    }}}>
                     <TimelineSeparator>
                         <TimelineDot  />
                         <TimelineConnector sx={{height:'100px'}} />
@@ -81,7 +84,10 @@ export const Experience = () => {
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem sx={{right:'20%'}}>
+                <TimelineItem sx={{right:'20%',
+                    '@media (max-width:768px)':{
+                        right:'30%'
+                    }}}>
                     <TimelineSeparator>
                         <TimelineDot />
                         <TimelineConnector sx={{height:'100px'}} />
