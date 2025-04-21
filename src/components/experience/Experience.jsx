@@ -20,7 +20,7 @@ export const Experience = () => {
             <Timeline >
                 <TimelineItem sx={{right:'20%',
                     '@media (max-width:768px)':{
-                        right:'30%'
+                        right:'25%'
                     }
                 }}>
                     <TimelineSeparator>
@@ -54,7 +54,7 @@ export const Experience = () => {
                 </TimelineItem>
                 <TimelineItem sx={{right:'20%',
                     '@media (max-width:768px)':{
-                        right:'30%'
+                        right:'25%'
                     }}}>
                     <TimelineSeparator>
                         <TimelineDot  />
@@ -86,7 +86,7 @@ export const Experience = () => {
                 </TimelineItem>
                 <TimelineItem sx={{right:'20%',
                     '@media (max-width:768px)':{
-                        right:'30%'
+                        right:'25%'
                     }}}>
                     <TimelineSeparator>
                         <TimelineDot />
