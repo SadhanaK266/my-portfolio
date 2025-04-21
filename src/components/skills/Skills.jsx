@@ -48,13 +48,16 @@ export const Skills = () => {
             <div >
                 <Accordion sx={{
                     width:'100%',maxWidth:'500px',left:'30.5%',backgroundColor:'rgb(50,50,50)',color:'white',
+                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'25%'}
                 }}>
                     <AccordionSummary
                         expandIcon={<ArrowDropDownIcon sx={{color:'white'}} />}
                         aria-controls="panel1-content"
                         id="panel1-header"
                     >
-                        <Typography component="span" sx={{fontSize:'18px',fontWeight:'bold'}}>Languages and Framework</Typography>
+                        <Typography component="span" sx={{fontSize:'18px',fontWeight:'bold',
+                            '@media(max-width:768px)':{fontSize:'15px'}
+                        }}>Languages and Framework</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography sx={{marginLeft:'15%'}}>
@@ -70,13 +73,17 @@ export const Skills = () => {
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
-                <Accordion sx={{width:'100%',maxWidth:'500px',left:'30.5%',backgroundColor:'rgb(50,50,50)',color:'white',}}>
+                <Accordion sx={{width:'100%',maxWidth:'500px',left:'30.5%',backgroundColor:'rgb(50,50,50)',color:'white',
+                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'25%'}
+                }}>
                     <AccordionSummary
                         expandIcon={<ArrowDropDownIcon sx={{color:'white'}} />}
                         aria-controls="panel2-content"
                         id="panel2-header"
                     >
-                        <Typography component="span" sx={{fontSize:'18px',fontWeight:'bold'}}>Tools</Typography>
+                        <Typography component="span" sx={{fontSize:'18px',fontWeight:'bold',
+                            '@media(max-width:768px)':{fontSize:'15px'}
+                        }}>Tools</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                     <Typography sx={{marginLeft:'15%'}}>
