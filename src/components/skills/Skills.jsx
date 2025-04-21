@@ -48,7 +48,7 @@ export const Skills = () => {
             <div >
                 <Accordion sx={{
                     width:'100%',maxWidth:'500px',left:'30.5%',backgroundColor:'rgb(50,50,50)',color:'white',
-                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'25%'}
+                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'15%'}
                 }}>
                     <AccordionSummary
                         expandIcon={<ArrowDropDownIcon sx={{color:'white'}} />}
@@ -74,7 +74,7 @@ export const Skills = () => {
                     </AccordionDetails>
                 </Accordion>
                 <Accordion sx={{width:'100%',maxWidth:'500px',left:'30.5%',backgroundColor:'rgb(50,50,50)',color:'white',
-                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'25%'}
+                    '@media(max-width:768px)':{width:'100%',maxWidth:'250px',left:'15%'}
                 }}>
                     <AccordionSummary
                         expandIcon={<ArrowDropDownIcon sx={{color:'white'}} />}
