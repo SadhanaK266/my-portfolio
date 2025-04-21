@@ -1,7 +1,7 @@
 skills {
     .skillsTitle {
-        margin-top: 80px;
-        margin-bottom: 20px;
+        margin-top: 10%;
+        margin-bottom: 5%;
         & h1 {
             text-align: center;
             color: rgb(200, 0, 200);
@@ -10,30 +10,30 @@ skills {
             font-family: 'Montserrat', sans-serif;
         }
     }
-    & .skills__container{
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
-        & .container1{
-            padding: 20px;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            background-color: rgb(30, 30, 30);
-            gap: 9px;
-            width: 35%;
-            & .top{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                text-align: center;
-                & h2{
-                    color: rgb(200, 0, 200);  
-                }
-            }
-        }
-    }
+    // & .skills__container{
+    //     display: flex;
+    //     flex-direction: column;
+    //     padding: 20px;
+    //     gap: 20px;
+    //     justify-content: center;
+    //     align-items: center;
+    //     & .container1{
+    //         padding: 20px;
+    //         border-radius: 10px;
+    //         display: flex;
+    //         flex-direction: column;
+    //         background-color: rgb(30, 30, 30);
+    //         gap: 9px;
+    //         width: 35%;
+    //         & .top{
+    //             display: flex;
+    //             align-items: center;
+    //             justify-content: space-between;
+    //             text-align: center;
+    //             & h2{
+    //                 color: rgb(200, 0, 200);  
+    //             }
+    //         }
+    //     }
+    // }
 }
