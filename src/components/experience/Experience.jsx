@@ -20,7 +20,7 @@ export const Experience = () => {
             <Timeline >
                 <TimelineItem sx={{right:'20%',
                     '@media (max-width:768px)':{
-                        right:'20%'
+                        right:'30%'
                     }
                 }}>
                     <TimelineSeparator>
@@ -31,7 +31,7 @@ export const Experience = () => {
                     <TimelineContent>
                         <Typography className='companyName' variant="h5" sx={{ fontFamily: 'Montserrat',marginBottom:'2%', fontWeight: 'bold', color: 'rgb(200,0,200)' ,
                             '@media (max-width:768px)':{
-                                fontSize:'18px'
+                                fontSize:'19px'
                             }
                         }}>
                             Thulir, Singapore (Intern)
@@ -60,7 +60,7 @@ export const Experience = () => {
                     <TimelineContent>
                         <Typography className='companyName' variant="h5" sx={{ fontFamily: 'Montserrat',marginBottom:'2%', fontWeight: 'bold', color: 'rgb(200,0,200)',
                             '@media (max-width:768px)':{
-                                fontSize:'20px'
+                                fontSize:'19px'
                             }
                          }}>
                             Squash Apps Private Limited, India (Intern)
@@ -90,7 +90,7 @@ export const Experience = () => {
                     <TimelineContent>
                         <Typography className='companyName' variant="h5" sx={{ fontFamily: 'Montserrat',marginBottom:'2%', fontWeight: 'bold', color: 'rgb(200,0,200)',
                             '@media (max-width:768px)':{
-                                fontSize:'20px'
+                                fontSize:'19px'
                             }
                          }}>
                             Squash Apps Private Limited, India (Intern)
