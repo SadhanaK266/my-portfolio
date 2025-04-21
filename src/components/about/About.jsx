@@ -39,7 +39,7 @@ export const About = () => {
           <div className="content">
             <div className="top">
               <h2>B.Tech IT</h2>
-              <h4>2022–2026</h4>
+              <h4>2022 – 2026</h4>
             </div>
             <div className="bottom">
               <p>KPR Institute of Engineering and Technology</p>
@@ -51,7 +51,7 @@ export const About = () => {
           <div className="content">
             <div className="top">
               <h2>HSC</h2>
-              <h4>2021–2022</h4>
+              <h4>2021 – 2022</h4>
             </div>
             <div className="bottom">
               <p>Thiru Janarthana Matriculation Higher Secondary School</p>
@@ -63,7 +63,7 @@ export const About = () => {
           <div className="content">
             <div className="top">
               <h2>SSLC</h2>
-              <h4>2019–2020</h4>
+              <h4>2019 – 2020</h4>
             </div>
             <div className="bottom">
               <p>Thiru Janarthana Matriculation Higher Secondary School</p>
