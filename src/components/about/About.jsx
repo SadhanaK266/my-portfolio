@@ -50,7 +50,7 @@ export const About = () => {
 
           <div className="content">
             <div className="top">
-              <h2>HSC</h2>
+              <h2>HSC </h2>
               <h4>2021 – 2022</h4>
             </div>
             <div className="bottom">
