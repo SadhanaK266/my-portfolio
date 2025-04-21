@@ -31,14 +31,14 @@ export const Experience = () => {
                     <TimelineContent>
                         <Typography className='companyName' variant="h5" sx={{ fontFamily: 'Montserrat',marginBottom:'2%', fontWeight: 'bold', color: 'rgb(200,0,200)' ,
                             '@media (max-width:768px)':{
-                                fontSize:'20px'
+                                fontSize:'18px'
                             }
                         }}>
                             Thulir, Singapore (Intern)
                         </Typography>
                         <Typography variant="p" sx={{ fontFamily: 'Montserrat',fontWeight:'bold', color: 'white',
                             '@media (max-width:768px)':{
-                                fontSize:'15px'
+                                fontSize:'13px'
                             }
                          }}>
                             Junior Web Developer
@@ -63,14 +63,14 @@ export const Experience = () => {
                     <TimelineContent>
                         <Typography className='companyName' variant="h5" sx={{ fontFamily: 'Montserrat',marginBottom:'2%', fontWeight: 'bold', color: 'rgb(200,0,200)',
                             '@media (max-width:768px)':{
-                                fontSize:'19px'
+                                fontSize:'18px'
                             }
                          }}>
                             Squash Apps Private Limited, India (Intern)
                         </Typography>
                         <Typography variant="p" sx={{fontFamily: 'Montserrat',fontWeight:'bold', color: 'white',
                             '@media (max-width:768px)':{
-                                fontSize:'15px'
+                                fontSize:'13px'
                             }
                         }}>
                             Web Developer
@@ -96,14 +96,14 @@ export const Experience = () => {
                     <TimelineContent>
                         <Typography className='companyName' variant="h5" sx={{ fontFamily: 'Montserrat',marginBottom:'2%', fontWeight: 'bold', color: 'rgb(200,0,200)',
                             '@media (max-width:768px)':{
-                                fontSize:'19px'
+                                fontSize:'18px'
                             }
                          }}>
                             Squash Apps Private Limited, India (Intern)
                         </Typography>
                         <Typography variant="p" sx={{fontFamily: 'Montserrat',fontWeight:'bold', color: 'white',
                             '@media (max-width:768px)':{
-                                fontSize:'15px'
+                                fontSize:'13px'
                             }
                          }}>
                             Web Developer
