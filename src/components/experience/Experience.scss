@@ -10,4 +10,12 @@
         font-family: 'Montserrat', sans-serif;
     }
 }
-
+@media(max-width:768px){
+    experience{
+        & .experienceTitle{
+            & h1{
+                font-size: 35px;
+            }
+        }
+    }
+}

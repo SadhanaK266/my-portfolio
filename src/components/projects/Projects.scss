@@ -68,6 +68,11 @@
 }
 
 @media(max-width:768px) {
+    .projectTitle{
+        & h1{
+            font-size: 35px;
+        }
+    }
     .projects {
         & .project__container {
             & .content {

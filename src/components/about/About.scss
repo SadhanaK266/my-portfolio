@@ -154,6 +154,11 @@
 }
 
 @media (max-width: 768px) {
+    .aboutTitle{
+        & h1{
+            font-size: 35px;
+        }
+    }
     .about-Home {
         flex-direction: column;
 
@@ -174,7 +179,7 @@
             justify-content: center;
 
             & h1 {
-                font-size: 33px;
+                font-size: 30px;
                 font-weight: 650;
             }
 

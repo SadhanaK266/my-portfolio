@@ -11,3 +11,12 @@ skills {
         }
     }
 }
+@media(max-width:768px){
+    skills{
+        & .skillsTitle{
+            & h1{
+                font-size: 35px;
+            }
+        }
+    }
+}
