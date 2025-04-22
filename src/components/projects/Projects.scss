@@ -62,3 +62,16 @@
         }
     }
 }
+@media(max-width:768px){
+    .projects{
+        & .project__container{
+            & .divOne{
+                & .right{
+                    & h4{
+                        font-size: 85%;
+                    }
+                }
+            }
+        }
+    }
+}
