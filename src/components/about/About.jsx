@@ -45,7 +45,7 @@ export const About = () => {
               <p>KPR Institute of Engineering and Technology</p>
               <span>Coimbatore</span>
             </div>
-            <p>CGPA: <span>8.1</span></p>
+            <p>CGPA: <span>8.07</span></p>
           </div>
 
           <div className="content">
