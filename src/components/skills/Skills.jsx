@@ -63,6 +63,7 @@ export const Skills = () => {
                                 <li>VS Code</li>
                                 <li>Figma</li>
                                 <li>Canva</li>
+                                <li>Google Colab</li>
                                 <li>BitBucket</li>
                             </ul>
                         </Typography>
