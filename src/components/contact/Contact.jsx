@@ -27,14 +27,12 @@ export const Contact = () => {
                 <LocationOnIcon sx={{ '@media(max-width:768px)': { fontSize: '15px' } }} />
                 <div className="right">Tirupur, India</div>
             </a>
-            <a href="" className='icons'>
-                <LinkedInIcon sx={{
-                    marginTop: '1.5%', marginRight: '2%', fontSize: '33px', '&:hover': { color: 'rgb(200, 0, 200)' },
-                    '@media(max-width:768px)': { fontSize: '20px' }
-                }} />
-
-                <GitHubIcon sx={{
-                    marginTop: '1.5%', marginRight: '2%', fontSize: '33px', '&:hover': { color: 'rgb(200, 0, 200)' },
+            <a href="https://www.linkedin.com/in/sadhana-karuppusamy/" className='icons'>
+                <LinkedInIcon sx={{marginTop: '1.5%', marginRight: '2%', fontSize: '33px', '&:hover': { color: 'rgb(200, 0, 200)' },
+                    '@media(max-width:768px)': { fontSize: '20px' }}} />
+            </a>
+            <a href='https://github.com/SadhanaK266'>
+                <GitHubIcon sx={{color:'white',marginTop: '1.5%', marginRight: '2%', fontSize: '33px', '&:hover': { color: 'rgb(200, 0, 200)' },
                     '@media(max-width:768px)': { fontSize: '20px' }
                 }} />
             </a>

@@ -13,6 +13,8 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
 import { grey } from '@mui/material/colors';
+import HomeIcon from '@mui/icons-material/Home';
+
 
 
 export const Header = () => {
@@ -33,12 +35,17 @@ export const Header = () => {
                 color:'rgb(200,0,200)',transform:'scale(1.02)'
               }
             }}>
+              <ListItemIcon>
+                <HomeIcon sx={{color:'white'}}/>
+              </ListItemIcon>
       
               <ListItemText primary={text} primaryTypographyProps={{fontFamily:'poppins'}}/>
             </ListItemButton>
           </ListItem>
+          
         ))}
       </List>
+      
     </Box>
   );
   return (
