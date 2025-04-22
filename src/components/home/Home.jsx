@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.scss"
-import TopImage1 from '../images/TopImage1.jpg';
+import TopImage1 from '../images/TopImage2.jpg';
 import resume from '../resume/Resume041025,.pdf';
 
 export const Home = () => {
