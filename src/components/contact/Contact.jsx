@@ -18,7 +18,7 @@ export const Contact = () => {
                 <PhoneIcon sx={{ '@media(max-width:768px)': { fontSize: '15px' } }} />
                 <div className="right">+91 - 7812824150</div>
             </a>
-            <a href="" className='container'>
+            <a href=" sadhanakaruppusamy266@gmail.com" className='container'>
                 <EmailIcon sx={{ '@media(max-width:768px)': { fontSize: '15px' } }} />
                 <div className="right">sadhanakaruppusamy266@gmail.com</div>
             </a>
