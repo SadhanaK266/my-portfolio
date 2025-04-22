@@ -31,6 +31,7 @@ export const Contact = () => {
                     <LinkedInIcon sx={{marginTop:'1.5%',marginRight: '2%',fontSize:'33px','&:hover':{color: 'rgb(200, 0, 200)'},
                     '@media(max-width:768px)':{fontSize:'20px'}
                 }}/>
+                
                     <GitHubIcon sx={{marginTop:'1.5%',marginRight: '2%',fontSize:'33px','&:hover':{color: 'rgb(200, 0, 200)'},
                 '@media(max-width:768px)':{fontSize:'20px'}
                 }}/>  
