@@ -1,6 +1,7 @@
 .projectTitle {
     margin-top: 10%;
     margin-bottom: 5%;
+
     & h1 {
         text-align: center;
         color: rgb(200, 0, 200);
@@ -32,6 +33,7 @@
             background-color: rgb(59, 59, 59);
             transition: transform 0.2s ease-in-out;
             justify-content: space-between;
+
             &:hover {
                 cursor: pointer;
                 transform: scale(1.03);
@@ -40,9 +42,11 @@
             & .divOne {
                 display: flex;
                 width: 100%;
+
                 & .left {
-                    color: black;margin-left: 2%;
-                    margin-right:5%;
+                    color: black;
+                    margin-left: 2%;
+                    margin-right: 5%;
                 }
 
                 & .right {
@@ -62,13 +66,17 @@
         }
     }
 }
-@media(max-width:768px){
-    .projects{
-        & .project__container{
-            & .divOne{
-                & .right{
-                    & h4{
-                        font-size: 85%;
+
+@media(max-width:768px) {
+    .projects {
+        & .project__container {
+            & .content {
+                width: 85%;
+                & .divOne {
+                    & .right {
+                        & h4 {
+                            font-size: 85%;
+                        }
                     }
                 }
             }
