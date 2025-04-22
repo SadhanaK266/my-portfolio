@@ -48,9 +48,14 @@
 }
 @media(max-width:768px){
     .contact-container{
+        & .contactTitle{
+            & h1{
+                font-size: 35px;
+            }
+        }
         padding-bottom: 7%;
         & p{
-            font-size: 80%;
+            font-size: 78%;
         }
 
         & .container{
