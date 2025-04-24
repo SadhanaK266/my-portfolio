@@ -14,7 +14,7 @@ export const Contact = () => {
                 <h1>Contact Me</h1>
             </div>
             <p>Passionate about crafting web solutions and solving problems — feel free to connect for tech collaborations, internships, or career opportunities.</p>
-            <a href="" className='container'>
+            <a href="tel:7812824150" className='container'>
                 <PhoneIcon sx={{ '@media(max-width:768px)': { fontSize: '15px' } }} />
                 <div className="right">+91 - 7812824150</div>
             </a>
