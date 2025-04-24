@@ -99,7 +99,7 @@
                 & h2 {
                     color: rgb(200, 0, 200);
                     display:flex;
-                    alignItems:center;
+                    align-items:center;
                 }
             }
 
@@ -209,6 +209,11 @@
         & .about__content {
             & .content {
                 width: 80%;
+                & .top{
+                    & h4{
+                        font-size: 90%;
+                    }
+                }
             }
         }
 
