@@ -1,22 +1,85 @@
-skills {
-    .skillsTitle {
-        margin-top: 10%;
-        margin-bottom: 5%;
-        & h1 {
-            text-align: center;
-            color: rgb(200, 0, 200);
-            font-weight: 650;
-            font-size: 45px;
-            font-family: 'Montserrat', sans-serif;
-        }
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    font-family: 'Montserrat',sans-serif;
+    
+    .skills-title {
+      h1 {
+        margin-top: 70%;
+        margin-bottom: 70%;
+        text-align: center;
+        color: rgb(200, 0, 200);
+        font-weight: 650;
+        font-size: 45px;
+        font-family: 'Montserrat', sans-serif;
+      }
     }
-}
-@media(max-width:768px){
-    skills{
-        & .skillsTitle{
-            & h1{
-                font-size: 35px;
-            }
+  
+    .custom-accordion {
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: transparent;
+  
+      .MuiAccordionSummary-root {
+        background-color: rgb(50, 50, 50);
+        transition: background-color 0.3s ease;
+      }
+  
+      &.Mui-expanded {
+        .MuiAccordionSummary-root {
+          background-color: black;
         }
+      }
+  
+      .accordion-title {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+  
+@media (max-width: 768px) {
+          font-size: 15px;
+        }
+      }
+  
+      .MuiAccordionDetails-root {
+        background-color: black;
+      }
     }
-}
+  
+    .skill-card {
+      padding: 1.5rem;
+      background: black;
+      text-align: center;
+      border-radius: 10px;
+      transition: transform 0.2s ease-in-out;
+      cursor: pointer;
+  
+      &:hover {
+        transform: scale(1.1);
+        background: rgb(50,50,50);
+        & .skill-text{
+            color: white;
+            font-weight: 600;
+        }
+      }
+  
+      .skill-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+  
+      .skill-text {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(200, 0, 200);
+        font-size: 1rem;
+        
+      }
+    }
+  }
+  
