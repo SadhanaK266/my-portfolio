@@ -25,6 +25,13 @@ export const Header = () => {
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
   };
+  const handleNavigation = (section) => {
+    const el = document.getElementById(section.toLowerCase());
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+    setOpen(false);
+  };
 
   const content=[
     {
@@ -49,7 +56,8 @@ export const Header = () => {
       <List>
         {content.map((text, index) => (
           <ListItem key={text} disablePadding>
-            <ListItemButton sx={{
+            <ListItemButton onClick={() => handleNavigation(text.btn)}
+            sx={{
               transition: 'transform 0.2s ease,color 0.2s ease',
               '&:hover':{
                 color:'rgb(200,0,200)',transform:'scale(1.02)'
@@ -75,12 +83,12 @@ export const Header = () => {
           <h1>Sadhana K.</h1>
         </div>
         <div className='header__right'>
-          <p>Home</p>
-          <p>About</p>
-          <p>Skills</p>
-          <p>Projects</p>
-          <p>Experience</p>
-          <button>Contact</button>
+        <p onClick={() => handleNavigation('Home')}>Home</p>
+        <p onClick={() => handleNavigation('About')}>About</p>
+        <p onClick={() => handleNavigation('Skills')}>Skills</p>
+        <p onClick={() => handleNavigation('Experience')}>Experience</p>
+        <p onClick={() => handleNavigation('Projects')}>Projects</p>
+        <button onClick={() => handleNavigation('Contact')}>Contact</button>
         </div>
         <div className='menu-drawer'>
           <Button onClick={toggleDrawer(true)}><MenuIcon sx={{color:'rgb(200, 0, 200)'}}/></Button>

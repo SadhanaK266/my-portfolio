@@ -3,6 +3,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding:20px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
     & .header__left{
         & h1{
             margin-left: 10px;
@@ -17,9 +21,10 @@ header{
             font-size: 16px;
             padding: 3px;
             color:white;
-            transition: transform 0.3s ease-in-out;
+            transition: 0.2s ease-in-out;
             cursor: pointer;
             &:hover{
+                font-weight: 600;
                 color: black;
                 background-color:rgb(200, 0, 200);
                 border-radius: 3px;
@@ -39,9 +44,10 @@ header{
             transition: transform 0.3s ease-in-out;
             cursor: pointer;
             &:hover{
+                font-weight: 600;
                 transform: scale(1.05);
                 background-color:lightgray;
-                color: rgb(200, 0, 200);
+                color: black;
                 border-radius: 5px;
             }
         }
