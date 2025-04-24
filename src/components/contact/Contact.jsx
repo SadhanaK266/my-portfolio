@@ -14,9 +14,9 @@ export const Contact = () => {
                 <h1>Contact Me</h1>
             </div>
             <p>Passionate about crafting web solutions and solving problems — feel free to connect for tech collaborations, internships, or career opportunities.</p>
-            <a href="tel:7812824150" className='container'>
+            <a href="tel:" className='container'>
                 <PhoneIcon sx={{ '@media(max-width:768px)': { fontSize: '15px' } }} />
-                <div className="right">+91 - 7812824150</div>
+                <div className="right"> 0123456789</div>
             </a>
             <a href="mailto:sadhanakaruppusamy266@gmail.com" className='container'>
                 <EmailIcon sx={{ '@media(max-width:768px)': { fontSize: '15px' } }} />
