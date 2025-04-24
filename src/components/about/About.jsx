@@ -4,7 +4,7 @@ import image2 from '../images/image2.png';
 import Button from '@mui/material/Button';
 import { saveAs } from 'file-saver';
 import resume from '../resume/Resume041025,.pdf';
-
+import SchoolIcon from '@mui/icons-material/School';
 export const About = () => {
   const download = async () => {
     saveAs(resume, "Resume_Sadhana_K.pdf");
@@ -38,7 +38,8 @@ export const About = () => {
         <div className="about__content">
           <div className="content">
             <div className="top">
-              <h2>B.Tech IT</h2>
+              
+              <h2>B.Tech IT<SchoolIcon sx={{color:'white',marginLeft:'8px',}}/></h2>
               <h4>2022 – 2026</h4>
             </div>
             <div className="bottom">
@@ -50,7 +51,7 @@ export const About = () => {
 
           <div className="content">
             <div className="top">
-              <h2>HSC </h2>
+              <h2>HSC <SchoolIcon sx={{color:'white',marginLeft:'8px',}}/></h2>
               <h4>2021 – 2022</h4>
             </div>
             <div className="bottom">
@@ -62,7 +63,7 @@ export const About = () => {
 
           <div className="content">
             <div className="top">
-              <h2>SSLC</h2>
+              <h2>SSLC<SchoolIcon sx={{color:'white',marginLeft:'8px',}}/></h2>
               <h4>2019 – 2020</h4>
             </div>
             <div className="bottom">

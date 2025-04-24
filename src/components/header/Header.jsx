@@ -14,8 +14,10 @@ import MailIcon from '@mui/icons-material/Mail';
 import MenuIcon from '@mui/icons-material/Menu';
 import { grey } from '@mui/material/colors';
 import HomeIcon from '@mui/icons-material/Home';
-
-
+import InfoIcon from '@mui/icons-material/Info';
+import MicrosoftIcon from '@mui/icons-material/Microsoft';
+import ArchitectureIcon from '@mui/icons-material/Architecture';
+import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 
 export const Header = () => {
   const [open, setOpen] = React.useState(false);
@@ -24,10 +26,28 @@ export const Header = () => {
     setOpen(newOpen);
   };
 
+  const content=[
+    {
+      btn:"Home", icon:<HomeIcon sx={{color:'white'}}/>
+    },
+    {
+      btn:"About", icon:<InfoIcon sx={{color:'white'}}/>
+    },
+    {
+      btn:"Skills", icon:<MicrosoftIcon sx={{color:'white'}}/>
+    },
+    {
+      btn:"Projects", icon:<ArchitectureIcon sx={{color:'white'}}/>
+    },
+    {
+      btn:"Experience", icon:<WorkOutlineIcon  sx={{color:'white'}}/>
+    },
+  ]
+
   const DrawerList = (
     <Box sx={{ width: 200,height:'100%',background:'rgb(30, 30, 30)',color:'white' }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Home', 'About', 'Skills', 'Projects','Experience'].map((text, index) => (
+        {content.map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton sx={{
               transition: 'transform 0.2s ease,color 0.2s ease',
@@ -36,10 +56,10 @@ export const Header = () => {
               }
             }}>
               <ListItemIcon>
-                <HomeIcon sx={{color:'white'}}/>
+                {text.icon}
               </ListItemIcon>
       
-              <ListItemText primary={text} primaryTypographyProps={{fontFamily:'poppins'}}/>
+              <ListItemText primary={text.btn} primaryTypographyProps={{fontFamily:'poppins'}}/>
             </ListItemButton>
           </ListItem>
           
