@@ -10,7 +10,7 @@ import { Skills } from './components/skills/Skills'
 function App() {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     <div id="home"><Home/></div>
     <div id="about"><About/></div>
     <div id="skills"><Skills/></div>
