@@ -3,7 +3,7 @@ import './About.scss';
 import image2 from '../images/image2.png';
 import Button from '@mui/material/Button';
 import { saveAs } from 'file-saver';
-import resume from '../resume/Resume_082125,.pdf';
+import resume from '../resume/Resume082125.pdf';
 import SchoolIcon from '@mui/icons-material/School';
 export const About = () => {
   const download = async () => {
